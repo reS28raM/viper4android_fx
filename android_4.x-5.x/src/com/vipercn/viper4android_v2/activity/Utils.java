@@ -861,7 +861,7 @@ public class Utils {
                 // Modify permission of addon.d script if applicable
                 if (isAddondSupported) {
                     Command ccSetAddondPermission = new Command(0,
-                            mChmod + " 644 /system/addon.d/91-v4a.sh");
+                            mChmod + " 755 /system/addon.d/91-v4a.sh");
                     RootTools.getShell(true).add(ccSetAddondPermission);
                 }
 
@@ -900,7 +900,7 @@ public class Utils {
                 // Modify permission of addon.d script if applicable
                 if (isAddondSupported) {
                     Command ccSetAddondPermission = new Command(0,
-                            mChmod + " 644 /system/addon.d/91-v4a.sh");
+                            mChmod + " 755 /system/addon.d/91-v4a.sh");
                     RootTools.getShell(true).add(ccSetAddondPermission);
                 }
 
